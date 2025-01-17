@@ -1,12 +1,7 @@
 # Network Programming
 
 ## Overview
-This assignment involves building a network echo server (`echo_s`), an echo client (`echo_c`), and a log server (`log_s`) using C/C++. The goal is to explore networking and multiprocessing concepts by implementing TCP/UDP communication, handling multiple clients, and logging messages.
-
-## Prerequisites
-Before starting, review:
-- Networking and network programming concepts (slides provided in class).
-- The chapter on multiprocessing.
+Built a network echo server (`echo_s`), an echo client (`echo_c`), and a log server (`log_s`) using C/C++. The goal is to explore networking and multiprocessing concepts by implementing TCP/UDP communication, handling multiple clients, and logging messages.
 
 ## Problem Statement
 ### Key Components
@@ -58,15 +53,6 @@ Before starting, review:
 2017-04-07 13:21:34 "I am just testing" was received from 11.3.2.115
 2017-04-07 13:21:35 "OK, I am done" was received from 25.120.42.7
 ```
-
-## Submission Requirements
-Submit the following files:
-- `echo_s.c` (Echo Server implementation).
-- `echo_c.c` (Echo Client implementation).
-- `log_s.c` (Log Server implementation).
-- `echo.log` (Generated log file).
-- `README.md` (This file).
-- Any additional headers or source files used.
 
 ## Testing Instructions
 1. Compile the programs:
